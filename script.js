@@ -135,4 +135,21 @@
    var sumNumbers = "2"+"2"
    document.write(sumNumbers + 3);
 
+
+   // Chapter 9
+   // Prompts
+
+   var anyPrompt = prompt("Enter your name");
+   var numofcats = prompt("How many cats");
+   var numofcities = prompt("How many cities are there in Pakistan");
+
+   // Chapter 10 
+   // if statement 
+   
+
+
+
+
+
+
    
