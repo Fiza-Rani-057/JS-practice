@@ -189,7 +189,24 @@
     }
   
    //  Chapter 12 
+   // if else and else if Statements 
    
+   var $Name = prompt("Enter your name");
+   var city = prompt("Enter your city name");
+   var country = prompt("Enter your country name");
+   
+   if($Name === "Hira"){
+      document.write("Hello hira");
+   }
+   else if(city === "Islamabad"){
+      document.write("Hello citizen");
+   }
+   else if(country === "Pakistan"){
+      document.write("Hello Pakistani");
+   }
+   else{
+      document.write ("Access Denied");
+   }
   
 
 
