@@ -13,4 +13,12 @@
 //  var(Keyword) , container name ,  = , string 
  
   var  userName = "Fiza";
-  alert(userName);
+   alert(userName);
+  var userEmail = "abcdefg@gmail.com";
+  console.log(userEmail);
+
+   // chapter 3
+   // Variable for numbers 
+   // Syntax 
+   
+
