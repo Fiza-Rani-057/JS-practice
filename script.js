@@ -231,11 +231,31 @@
 
       // Chapter 14 
       // Nested if Statements
-      
 
-  
+      var theage = 16;
 
+   if (age >= 18) {
+    if (age >= 21) {
+        console.log("Allowed");
+    }
+ }
+ else{
+   console.log("Not Allowed");
+  }
 
+//   Chapter 15 
+//   Arrays 
 
+  var city1 = "Los Angles";
+  var city2 = "Micigan";
+  var city3 = "Newyork";
+  var city4 = "Saint Francisco";
+  var city5 = "London";
+  var city_name = ["Los Angles", "Micigian", "Newyork",
+    "Sant Francisco", "London"];
+    console.log(city_name);
+
+   //  Chapter 16 
+   //   Adding and removing Elements 
 
    
