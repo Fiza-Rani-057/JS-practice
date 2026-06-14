@@ -133,7 +133,7 @@
    document.write("My name" + " " +"is" + " " + "Fiza Rani" + "<br>");
   
    var sumNumbers = "2"+"2"
-   document.write(sumNumbers + 3);
+   document.write(sumNumbers + 3 + "<br>");
 
 
    // Chapter 9
@@ -145,8 +145,14 @@
 
    // Chapter 10 
    // if statement 
-   
 
+   var name = "Alina";
+   if(name == "Alina"){
+      document.write("Hello Alina");
+   }
+   
+   // Chapter 11 
+   
 
 
 
