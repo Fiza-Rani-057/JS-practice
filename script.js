@@ -157,8 +157,40 @@
    }
    
    // Chapter 11 
+  // Comparison Operators 
 
+   //   Equal operator (==) 
+   //  Strict Equal operator (===) 
+   // Not equal operator (!=)
+   // Strict Not Equal operator (!===)
+   // Greater Than (>) 
+   // Greater than or equal (>=)
+   // Less than (<) 
+   // Less tha or equal (>=)
 
+   var boy = "Zain";
+   if(boy === "Zain") {
+       document.write("Hello Zain");
+   }
+
+    var girl = "Alina";
+    if(girl !==  "Alina"){
+      document.write("You are not allowed");
+    }
+   
+    var girlage = 10;
+    if(girlage <= 10){
+      document.write("Welcome");
+    }
+
+    var boyage = 20;
+    if(boyage >= 20){
+      document.write("Access Denied");
+    }
+  
+   //  Chapter 12 
+   
+  
 
 
 
