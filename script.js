@@ -312,4 +312,84 @@
    //  Chapter 18 
    // for loops 
     
+     var cityToCheck = "Chichago";
+
+ var cleanestCities = [
+  "Cheyenne",
+  "Santa Fe",
+  "Tucson",
+  "Great Falls",
+  "Honolulu"
+  ];
+
+  for (var i = 0; i < cleanestCities.length; i++) {
+
+  if (cityToCheck === cleanestCities[i]) {
+
+    console.log("It's one of the cleanest cities");
+
+  }
+  else{
+   console.log("It's not match");
+  }
+
+}
+//   Chapter 19 
+//   for loops : flags, Booleans, array length ,and loopus intrupts 
+
+// Flags 
+
+  var cityToCheck = "Tucson";
+  var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson"];
+  var found = false; 
+
+  for (var i = 0; i < cleanestCities.length; i++) {
+
+  if (cityToCheck === cleanestCities[i]) {
+    found = true; 
+  }
+
+}
+if (found) {
+  console.log("City is in list");
+}
+
+//   Booleans 
+  var isFound = false;
+
+ if (isFound) {
+  console.log("Yes found");
+
+} 
+
+//   length 
+
+  var cities = ["A", "B", "C"];
+
+    console.log(cities.length);
+
+   //  Loop interrupts (break / continue)
+   //  break 
+  
+   for (var i = 0; i < 5; i++) {
+
+  if (i === 3) {
+    break;
+  }
+
+  console.log(i);
+   }  
+
+   // Chapter 20 
+   // Nested for loop 
+
+ var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+  var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"]; 
+   var fullNames = []; 
+     for (var i = 0; i < firstNames.length; i++) { 
+          for (var j = 0; j < lastNames.length; j++) { 
+       fullNames.push(firstNames[i] + lastNames[j]);
+   } 
+ }
+ 
 
