@@ -84,24 +84,26 @@
    // Decrement Operator (--)
 
   var numb1 = 2;
-  var increment = numb++;
+  var increment = numb1--;
 
   console.log(increment);
 
   var numb2 = 3;
-  var decrement = 3--;
+  var decrement = numb2++;
 
   console.log(decrement);
 
   var numb3 = 3;
-  var incValue = ++3;
+  var incValue = ++numb3;
    
   console.log(incValue);
 
   var numb4 = 4;
-  var decValue = --4;
+  var decValue = --numb4;
 
   console.log(decValue);
+
+//   Chapter 7 
   
 
    
