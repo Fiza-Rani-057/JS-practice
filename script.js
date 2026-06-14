@@ -258,4 +258,19 @@
    //  Chapter 16 
    //   Adding and removing Elements 
 
-   
+
+   // push() → Array ke end mein item add karta hai.
+   // pop() → Array ke end se last item remove karta hai.
+
+
+   var fruits = ["Apple", "Mango"];
+
+  fruits.push("Banana");
+   console.log(fruits);
+
+   var fruits = ["Apple", "Mango", "Banana"];
+    fruits.pop();
+
+  console.log(fruits);
+
+//   Chapter 17 
