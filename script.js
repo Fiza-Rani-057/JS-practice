@@ -1,17 +1,12 @@
 //  Chapter 1
 //   Alert 
-//    Syntax 
-//   alert, paranthysis () double qoutataion mark inside [("") () ]
-//    Semicolon after () 
 
    alert("Hello world");
    alert("I'm learning Javascript");
 
 //    Chapter 2
 // Variable for names 
-//   Syntax 
-//  var(Keyword) , container name ,  = , string 
- 
+
   var  userName = "Fiza";
    console.log(userName);
   var userEmail = "abcdefg@gmail.com";
@@ -19,8 +14,10 @@
 
    // Chapter 3
    // Variable for numbers 
-   // Syntax 
+
+
    //   variable 1
+
    var num1 = 7;
    console.log(num1);
 
@@ -31,6 +28,7 @@
    console.log(sum);
 
    // Variable 2 
+
    var num3 = 2;
    console.log(num3);
 
@@ -39,6 +37,22 @@
 
    var sum2 =  num3+ 3;
    console.log(sum2);
+ 
+   // Chapter 4
+   // Variable names leagal and illeagal 
+
+   var $name = "Ali";
+   var _name = "Sara";
+   var name1 = "Sara";
+
+   // Chapter 5
+   // Maths Expression : Familiar Operators
+
+   // ++ Increment operator 
+   // -- decrement operator 
+
+   
+
 
 
 
