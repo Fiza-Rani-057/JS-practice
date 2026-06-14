@@ -273,4 +273,43 @@
 
   console.log(fruits);
 
-//   Chapter 17 
+   //  Chapter 17 
+   //  Arrays: Removing, inserting asd Extracting elements 
+
+
+   // unshift() Array ke start mein item add karta hai .
+
+   var fruits = ["Mango", "Banana"];
+    fruits.unshift("Apple");
+
+   console.log(fruits);
+   
+  
+   //   shift() Array ke start se pehla item remove karta hai.
+   var fruits = ["Apple", "Mango", "Banana"];
+     fruits.shift();
+
+    console.log(fruits);
+
+
+    /*1. slice() Array ka kuch hissa copy karke naya array banata hai.
+     Original array change nahi hota.*/
+
+     var fruits = ["Mango", "Apple" , "Banana", "Cherry"];
+     var result = fruits.slice(1,2);
+
+     console.log(result);
+
+
+    /* 2. splice() Array se items remove, add, ya replace kar sakta hai.
+    Original array change ho jata hai.*/
+
+    var fruits = ["Mango", "Apple" , "Banana", "Cherry"];
+    var result = fruits.splice(2,3);
+
+    console.log(result);
+
+   //  Chapter 18 
+   // for loops 
+    
+
