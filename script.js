@@ -121,9 +121,18 @@
   var solve4 = (2 + 3) * (3 + 2) + 2;
   console.log(solve4);
 
+
    // Chapter 8
-   
+   // Concatenating text strings 
 
+  var message = "Hello Everyone ";
+   alert(message  + "!");
 
+   var myName = "My name is Fiza";
+   document.write(myName + " "+ "Rani"+ "<br>");
+   document.write("My name" + " " +"is" + " " + "Fiza Rani" + "<br>");
+  
+   var sumNumbers = "2"+"2"
+   document.write(sumNumbers + 3);
 
    
