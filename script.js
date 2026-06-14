@@ -118,7 +118,12 @@
   var solve3 = (2 + 3) + (1+3) * 6;
   console.log(solve3);
 
+  var solve4 = (2 + 3) * (3 + 2) + 2;
+  console.log(solve4);
+
    // Chapter 8
    
+
+
 
    
