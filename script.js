@@ -194,7 +194,7 @@
    var $Name = prompt("Enter your name");
    var city = prompt("Enter your city name");
    var country = prompt("Enter your country name");
-   
+
    if($Name === "Hira"){
       document.write("Hello hira");
    }
@@ -207,6 +207,32 @@
    else{
       document.write ("Access Denied");
    }
+
+   // Chapter 13 
+   // Testing sets of Conditions 
+
+   // Logical Operators 
+
+   //  Logical AND (&&)
+   // Logical OR (||)
+
+
+   var usergirl = "Sana";
+   var usergirlage = 30;
+   var usergirlcity = "Karachi";
+
+   if((usergirl!== "Sana" && usergirlcity=== "Karachi") 
+      || usergirlage === 30){
+    console.log("your welcome");
+      }
+      else{
+         console.log("you are not allowed");
+      }
+
+      // Chapter 14 
+      // Nested if Statements
+      
+
   
 
 
