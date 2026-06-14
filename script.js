@@ -48,10 +48,31 @@
    // Chapter 5
    // Maths Expression : Familiar Operators
 
-   // ++ Increment operator 
-   // -- decrement operator 
-
+   // Additiion (+)
+   // Subtraction (-)
+   // Multiplication (*)
+   // Division (/)
    
+   var add = 2 + 3;
+   console.log(2 + 3);
+
+   var sub = 2 - 3;
+   console.log(2 - 3);
+
+   var multiply = 2*3;
+   console.log(2*3);
+
+   var divide = 2/3;
+   console.log(2/3);
+
+   var number1 = 10;
+   var number2 = 5;
+   var sumofnum = 10 + 5;
+   console.log(sumofnum);
+   
+
+
+
 
 
 
