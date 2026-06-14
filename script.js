@@ -148,11 +148,16 @@
 
    var name = "Alina";
    if(name == "Alina"){
-      document.write("Hello Alina");
+      document.write("Hello Alina" + "<br>");
+   }
+  
+   var age = 20;
+   if(age== 20){
+   document.write("hello young citizen");
    }
    
    // Chapter 11 
-   
+
 
 
 
