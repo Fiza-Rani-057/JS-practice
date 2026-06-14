@@ -68,8 +68,19 @@
    var number1 = 10;
    var number2 = 5;
    var sumofnum = 10 + 5;
+   var subnum = 10 - 5;
+   var multiplynum = 10*5;
+   var dividenum = 10/5;
+
+   console.log(subnum);
+   console.log(multiplynum);
+   console.log(dividenum);
    console.log(sumofnum);
+
+   // Chapter 6 
    
+    
+
 
 
 
