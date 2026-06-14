@@ -104,6 +104,21 @@
   console.log(decValue);
 
 //   Chapter 7 
-  
+//  Eliminating ambiguity 
+
+  var solve = 1 + 3 - 2 * 4;
+  console.log(solve);
+
+  var solve1 = 1-(4*2);
+  console.log(solve1);
+
+  var solve2 = (2 + 4)*2;
+  console.log(solve2);
+
+  var solve3 = (2 + 3) + (1+3) * 6;
+  console.log(solve3);
+
+   // Chapter 8
+   
 
    
