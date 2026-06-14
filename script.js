@@ -78,14 +78,30 @@
    console.log(sumofnum);
 
    // Chapter 6 
+   // Maths Expression : Unfamiliar operators 
+
+   // Increment Operator (++)
+   // Decrement Operator (--)
+
+  var numb1 = 2;
+  var increment = numb++;
+
+  console.log(increment);
+
+  var numb2 = 3;
+  var decrement = 3--;
+
+  console.log(decrement);
+
+  var numb3 = 3;
+  var incValue = ++3;
    
-    
+  console.log(incValue);
 
+  var numb4 = 4;
+  var decValue = --4;
 
+  console.log(decValue);
+  
 
-
-
-
-
-
-
+   
